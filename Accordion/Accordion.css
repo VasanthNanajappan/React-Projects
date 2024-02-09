@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 50%;
+  margin: auto;
+  padding-top: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.answer {
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: fit-content;
+  width: 50%;
+  margin: auto;
+  padding: 5px 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
