@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.productdetails-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.overall-container {
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 0 1rem;
+}
+.product-img {
+  width: 40%;
+  height: 450px;
+  border: 0.5px solid gainsboro;
+  max-width: 100%;
+}
+
+.product-wrapper {
+  display: grid;
+}
+.product-main {
+  display: flex;
+  gap: 2rem;
+  margin: 10px 30px;
+}
+
+.product-main2 {
+  display: flex;
+  gap: 2rem;
+  margin: 10px 30px;
+}
+
+.header {
+  display: grid;
+}
+
+.subhead {
+  border-bottom: 2px solid gainsboro;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.subheader {
+  margin: 10px 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.subdetail {
+  color: #535665;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.product-detailer {
+  padding-right: 100px;
+  width: 35%;
+}
+.shoe-sec {
+  padding: 10px 0px;
+}
+.mrp {
+  font-size: 20px;
+  font-weight: 400;
+  gap: 0.5rem;
+  padding-right: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.total {
+  text-decoration: line-through;
+}
+.discount {
+  color: lightcoral;
+  font-size: 20px;
+}
+
+.tax {
+  color: green;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.sizer {
+  margin: 10px 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn-size {
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  border-radius: 50%;
+  background: transparent;
+  margin: 5px 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-size:hover {
+  background-color: gainsboro;
+}
+
+.btn-addcart {
+  background-color: #ff3e6c;
+  border: #ff3e6c;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  width: 45%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.btn-wishlist {
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  color: black;
+  font-size: 15px;
+  width: 45%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.section2 {
+  margin-top: 15px;
+  border-bottom: 2px solid gainsboro;
+  padding-bottom: 20px;
+}
+
+.pincode {
+  height: 30px;
+}
+.btn-pincode {
+  border: none;
+  background-color: transparent;
+  color: #ff3e6c;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.btn-pincode:hover {
+  border-bottom: 1.5px solid #ff3e6c;
+  cursor: pointer;
+}
+.address-details {
+  border-bottom: 2px solid gainsboro;
+  margin: 20px 0px;
+}
+.add-h,
+.product-p,
+.Features-h,
+.materials-h {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form-p {
+  font-size: 12px;
+  font-weight: light;
+  padding: 5px 0px;
+}
+.form-h {
+  font-weight: light;
+  padding: 10px 0px;
+}
+.product-description-p {
+  padding: 15px 0px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.Features {
+  padding: 15px 0px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.materials {
+  padding: 15px 0px;
+}
+
+.Specifications {
+  display: flex;
+  gap: 5rem;
+  padding: 15px 0px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.col-1 {
+  display: grid;
+  gap: 0rem;
+}
+.col-2 {
+  display: grid;
+}
+
+.inner-col {
+  gap: 0rem;
+  border-bottom: 1px solid gainsboro;
+  padding: 5px 0px;
+}
+
+.inner-col-details {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.ratings-star {
+  color: #dfab55;
+}
+
+.strong {
+  font-size: 20px;
+}
+
+.review,
+.customer-review {
+  margin: 15px 0px;
+}
+
+.close {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: inherit;
+}
+
+.close:hover {
+  color: #7950f2;
+}
+
+/* Media Queries */
+
+/* For iPhone 11, 12, 13, 14 and similar sized devices */
+@media only screen and (max-width: 414px) {
+  .overall-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .product-img {
+    min-height: 300px;
+  }
+}
+
+/* For iPhone 6, 7, 8, SE and similar sized devices */
+@media only screen and (max-width: 375px) {
+  .overall-container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 320px) {
+  .overall-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+/* For small Android devices */
+@media only screen and (max-width: 320px) {
+  .overall-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .product-img {
+    min-height: 300px;
+  }
+}
+
+/* For medium-sized Android devices */
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+  .overall-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .product-img {
+    min-height: 350px;
+  }
+}
+
+/* For larger Android devices */
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .overall-container {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .product-img {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div,
+  section,
+  span {
+    padding: 20px;
+    font-size: 18px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+/* Media Query for Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div,
+  section,
+  span {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
