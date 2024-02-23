@@ -1,5 +1,5 @@
 Hello Sir, 
-Iam Vasanth you can able to run this project by copy-pasting or Downlaod it to your VSCode.
+Iam Vasanth you can able to run this project by using this link -https://ecommerce-app-reactproject.netlify.app/
 Here the Products are rendered "DYNAMICALLY" not the Product Page(it was hard Coded)
 I tried my best in responsive web design
 The "X" symbol just takes the page off ,it wont get back to home page sir!
